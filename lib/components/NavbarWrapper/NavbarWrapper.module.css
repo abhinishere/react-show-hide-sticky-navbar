@@ -1,0 +1,10 @@
+.NavbarWrapper {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  transition: transform 200ms linear;
+}
+
+.NavbarWrapper.HiddenNavbar {
+  transform: translateY(-100%);
+}
